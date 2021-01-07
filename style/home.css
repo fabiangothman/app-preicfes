@@ -1,0 +1,142 @@
+html body{
+	margin:0px;
+	padding:0px;
+	/*background-image:url("../images/comunes/patron.png");
+	background-position:left center;
+    background-repeat:repeat;
+    background-size:200px 200px;
+    height:100%;
+    width:100%;*/
+    background-color:#0F1F27;
+}
+
+/*	FANCYBOX STYLE (Transparent background)	*/
+.fancybox-content, .fancybox-iframe{
+	background:none rgba(29, 45, 53, 0.6) !important;
+	/*background-color:rgba(29, 45, 53, 0.5);*/
+	border-radius: 10px;
+}
+
+
+
+.alertsContainer{
+	/*border:1px solid red;*/
+	height:auto;
+}
+
+/*//	BOOTSTRAP STYLE	//*/
+.alert{
+	margin-bottom:0px !important;
+}
+
+#homeContainer .areaCont, #homeContainer .areaFooter, .alertsContainer{
+	margin:0px auto;
+	width:1024px;
+}
+
+#homeContainer{
+	/*border:1px solid red;*/
+	font-family:'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	height:100%;
+	width:100%;
+}
+
+#homeContainer .areaCont{
+	/*border:1px solid blue;*/
+    height:693px;
+}
+
+#homeContainer .areaCont .bgImage{
+	/*border:1px solid black;*/
+	background-image:url("../images/modules/home/home.png");
+	background-position:left center;
+    background-repeat:no-repeat;
+    background-size:1024px 693px;
+    height:100%;
+    width:100%;
+}
+
+#homeContainer .areaCont .bgImage .botoneraCont{
+	/*border:1px solid red;*/
+}
+
+	#homeContainer .areaCont .bgImage .botoneraCont a{
+		border:0px;
+		outline:none;
+	}
+
+#homeContainer .areaCont .bgImage .botoneraCont .btn{
+	cursor:pointer;
+}
+
+	#homeContainer .areaCont .bgImage .botoneraCont .contSupe{
+		/*border:1px solid red;*/
+		width:100%;
+		height:140px;
+		position:relative;
+	}
+
+		#homeContainer .areaCont .bgImage .botoneraCont .contSupe #btnAyuda{
+			/*border:1px solid black;*/
+			height:55px;
+			position:absolute;
+			right:10px;
+			bottom:0px;
+			width:63px;
+		}
+
+			#homeContainer .areaCont .bgImage .botoneraCont .contSupe #btnAyuda .btn{
+				background-image:url("../images/modules/home/btnayuda.png");
+			    background-position:left center;
+				background-repeat:no-repeat;
+			    background-size:63px 55px;
+				height:100%;
+			    width:100%;
+			}
+
+	#homeContainer .areaCont .bgImage .botoneraCont .contMedi{
+		/*border:1px solid red;*/
+		width:100%;
+		height:470px;
+	}
+
+	#homeContainer .areaCont .bgImage .botoneraCont .contInfe{
+		/*border:1px solid red;*/
+		width:100%;
+		height:79px;
+	}
+
+		#homeContainer .areaCont .bgImage .botoneraCont #btnIngresar{
+			/*border:1px solid black;*/
+			height:79px;
+			margin:0px auto;
+			width:182px;
+		}
+
+			#homeContainer .areaCont .bgImage .botoneraCont #btnIngresar .btn{
+				background-image:url("../images/modules/home/btningresar.png");
+			    background-position:left center;
+				background-repeat:no-repeat;
+			    background-size:182px 79px;
+				height:100%;
+			    width:100%;
+			}
+
+/*	FOOTER	*/
+#homeContainer .areaFooter{
+	/*border:1px solid blue;*/
+	background-color:#308d72;
+	display:table;
+	font-size:16px;
+    height:30px;
+}
+
+	#homeContainer .areaFooter .conText{
+		/*border:1px solid red;*/
+		color:white;
+		display:table-cell;
+    	text-align:center;
+    	vertical-align:middle;
+	}

@@ -1,0 +1,196 @@
+html body{
+	margin:0px;
+	padding:0px;
+	margin:0px;
+	padding:0px;
+	/*background-image:url("../images/comunes/patron.png");
+	background-position:left center;
+    background-repeat:repeat;
+    background-size:200px 200px;
+    height:100%;
+    width:100%;*/
+    background-color:#0F1F27;
+}
+
+/*	FANCYBOX STYLE (Transparent background)	*/
+.fancybox-content, .fancybox-iframe{
+	background:none rgba(29, 45, 53, 0.6) !important;
+	/*background-color:rgba(29, 45, 53, 0.5);*/
+	border-radius: 10px;
+}
+
+.alertsContainer{
+	/*border:1px solid red;*/
+	height:auto;
+}
+
+/*//	BOOTSTRAP STYLE	//*/
+.alert{
+	margin-bottom:0px !important;
+}
+
+#galaxiaContainer .areaCont, #galaxiaContainer .areaFooter, .alertsContainer{
+	margin:0px auto;
+	width:1024px;
+}
+
+#galaxiaContainer{
+	/*border:1px solid red;*/
+	font-family:'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	height:100%;
+	width:100%;
+}
+
+#galaxiaContainer .areaCont{
+	/*border:1px solid blue;*/
+    height:693px;
+}
+
+#galaxiaContainer .areaCont .bgImage{
+	/*border:1px solid black;*/
+	background-image:url("../images/modules/galaxia/fondo.png");
+	background-position:left center;
+    background-repeat:no-repeat;
+    background-size:1024px 693px;
+    height:100%;
+    width:100%;
+}
+
+#galaxiaContainer .areaCont .bgImage .contPlanetas{
+	/**/
+}
+
+	#galaxiaContainer .areaCont .bgImage .contPlanetas .planeta{
+		/*border:1px solid red;*/
+		cursor:pointer;
+		position:absolute;
+	}
+
+		#galaxiaContainer .areaCont .bgImage .contPlanetas .planeta a{
+			outline:none;
+		}
+
+	#galaxiaContainer .areaCont .bgImage .contPlanetas #contPlanetaLect{
+		/*border:1px solid red;*/
+		height:180px;
+		margin-left:95px;
+		margin-top:338px;
+		width:258px;
+		text-align:center;
+	}
+
+		#galaxiaContainer .areaCont .bgImage .contPlanetas #lectura{
+			height:auto;
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	#galaxiaContainer .areaCont .bgImage .contPlanetas #contPlanetaIngl{
+		/*border:1px solid red;*/
+		height:203px;
+		margin-left:172px;
+		margin-top:53px;
+		width:260px;
+		text-align:center;
+	}
+
+		#galaxiaContainer .areaCont .bgImage .contPlanetas #ingles{
+			height:auto;
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	#galaxiaContainer .areaCont .bgImage .contPlanetas #contPlanetaMate{
+		/*border:1px solid red;*/
+		height:153px;
+		margin-left:402px;
+		margin-top:302px;
+		width:217px;
+		text-align:center;
+	}
+
+		#galaxiaContainer .areaCont .bgImage .contPlanetas #matematicas{
+			height:auto;
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	#galaxiaContainer .areaCont .bgImage .contPlanetas #contPlanetaCien{
+		/*border:1px solid red;*/
+		height:157px;
+		margin-left:591px;
+		margin-top:544px;
+		width:291px;
+		text-align:center;
+	}
+
+		#galaxiaContainer .areaCont .bgImage .contPlanetas #ciencias{
+			height:auto;
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform:translate(-50%, -50%);
+		}
+	
+	#galaxiaContainer .areaCont .bgImage .contPlanetas #contPlanetaSoci{
+		/*border:1px solid red;*/
+		height:164px;
+		margin-left:554px;
+		margin-top:58px;
+		width:178px;
+		text-align:center;
+	}
+
+		#galaxiaContainer .areaCont .bgImage .contPlanetas #sociales{
+			height:auto;
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform:translate(-50%, -50%);
+		}
+
+
+#galaxiaContainer .areaCont .bgImage .panelInformacion{
+	/*border:1px solid red;*/
+	display:table;
+	float:right;
+	margin-top:100px;
+}
+
+	#galaxiaContainer .areaCont .bgImage .panelInformacion .profilePic, #galaxiaContainer .areaCont .bgImage .panelInformacion .contBtnCabina{
+		display:inline-block;
+	}
+
+	#galaxiaContainer .areaCont .bgImage .panelInformacion .contBtnCabina{
+		/**/
+	}
+
+		#galaxiaContainer .areaCont .bgImage .contBtnCabina .panelInformacion .btnCabina{
+			/*border:1px solid red;*/
+		}
+
+
+/*	FOOTER	*/
+#galaxiaContainer .areaFooter{
+	/*border:1px solid blue;*/
+	background-color:#308d72;
+	display:table;
+	font-size:16px;
+    height:30px;
+}
+
+	#galaxiaContainer .areaFooter .conText{
+		/*border:1px solid red;*/
+		color:white;
+		display:table-cell;
+    	text-align:center;
+    	vertical-align:middle;
+	}

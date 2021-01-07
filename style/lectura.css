@@ -1,0 +1,60 @@
+html body{
+	margin:0px;
+	padding:0px;
+}
+
+#lecturaContainer{
+	/*border:1px solid red;*/
+	height:589px;
+	width:772px;
+}
+
+#lecturaContainer .areaCont{
+    height:100%;
+	width:100%;
+}
+
+#lecturaContainer .areaCont .bgImage{
+	background-image:url("../images/modules/galaxia/cursos/lectura.png");
+	background-position:left center;
+    background-repeat:no-repeat;
+    background-size:772px 589px;
+    height:100%;
+    width:100%;
+}
+
+#lecturaContainer .areaCont .botonera{
+	/*border:1px solid black;*/
+	display:table;
+	height:auto;
+	margin:0px auto;
+    width:auto;
+}
+
+	#lecturaContainer .areaCont .botonera #inicio{
+		background-image:url("../images/comunes/iniciar.png");
+		background-position:left center;
+	    background-repeat:no-repeat;
+	    background-size:189px 50px;
+		/*border:1px solid black;*/
+		cursor:pointer;
+		display:inline-block;
+		height:50px;
+		margin-right:10px;
+		margin-top:530px;
+	    width:189px;
+	}
+
+	#lecturaContainer .areaCont .botonera #practica{
+		background-image:url("../images/comunes/practicar.png");
+		background-position:left center;
+	    background-repeat:no-repeat;
+	    background-size:189px 50px;
+		/*border:1px solid black;*/
+		cursor:pointer;
+		display:inline-block;
+		height:50px;
+		margin-left:10px;
+		margin-top:530px;
+	    width:189px;
+	}

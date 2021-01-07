@@ -1,0 +1,140 @@
+html body{
+	margin:0px;
+	padding:0px;
+	margin:0px;
+	padding:0px;
+	/*background-image:url("../images/comunes/patron.png");
+	background-position:left center;
+    background-repeat:repeat;
+    background-size:200px 200px;
+    height:100%;
+    width:100%;*/
+    background-color:#0F1F27;
+}
+
+.alertsContainer{
+	/*border:1px solid red;*/
+	height:auto;
+}
+
+/*//	BOOTSTRAP STYLE	//*/
+.alert{
+	margin-bottom:0px !important;
+}
+
+#cabinaContainer .areaCont, #cabinaContainer .areaFooter, .alertsContainer{
+	margin:0px auto;
+	width:1024px;
+}
+
+#cabinaContainer{
+	/*border:1px solid red;*/
+	font-family:'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	height:100%;
+	width:100%;
+}
+
+#cabinaContainer .areaCont{
+	/*border:1px solid blue;*/
+    height:693px;
+}
+
+#cabinaContainer .areaCont .bgImage{
+	/*border:1px solid black;*/
+	background-image:url("../images/modules/cabina/cabina.png");
+	background-position:left center;
+    background-repeat:no-repeat;
+    background-size:1024px 693px;
+    height:100%;
+    width:100%;
+}
+
+#cabinaContainer .areaCont .bgImage .imgSalir{
+	/*border:1px solid red;*/
+	cursor:pointer;
+	position:absolute;
+	margin-left: 850px;
+    margin-top: 104px;
+}
+
+
+#cabinaContainer .areaCont .bgImage .contSupe{
+	/*border:1px solid red;*/
+    height:341px;
+    width:100%;
+}
+
+#cabinaContainer .areaCont .bgImage .contMedi{
+	/*border:1px solid red;*/
+    height:auto;
+    width:100%;
+    display:table;
+}
+
+	#cabinaContainer .areaCont .bgImage .contMedi .contMedi-left{
+		display:inline-block;
+		width:120px;
+	}
+
+	#cabinaContainer .areaCont .bgImage .contMedi .contMedi-center{
+		display:inline-block;
+		width:154px;
+	}
+
+		#cabinaContainer .areaCont .bgImage .contMedi .contMedi-center .campoTexto{
+		    display:table;
+		    height:43px;
+		    width:100%;
+		}
+
+			#cabinaContainer .areaCont .bgImage .contMedi .contMedi-center .campoTexto .vinculo{
+			    color:white;
+			    cursor:pointer;
+			    display:table-cell;
+			    height:43px;
+			    vertical-align:middle;
+			    width:100%;
+			}
+
+			#cabinaContainer .areaCont .bgImage .contMedi .contMedi-center .campoTexto .vinculo a:hover{
+			    color:#eecc7a;
+			    font-size:22px;
+			}
+
+				#cabinaContainer .areaCont .bgImage .contMedi .contMedi-center .campoTexto .vinculo a{
+				    color:white;
+				    text-decoration:none;
+				}
+				
+
+	#cabinaContainer .areaCont .bgImage .contMedi .contMedi-right{
+		display:inline-block;
+		height:129px;
+		width:750px;
+	}
+
+#cabinaContainer .areaCont .bgImage .contInfe{
+	/*border:1px solid red;*/
+    height:226px;
+    width:100%;
+}
+
+
+/*	FOOTER	*/
+#cabinaContainer .areaFooter{
+	/*border:1px solid blue;*/
+	background-color:#308d72;
+	display:table;
+	font-size:16px;
+    height:30px;
+}
+
+	#cabinaContainer .areaFooter .conText{
+		/*border:1px solid red;*/
+		color:white;
+		display:table-cell;
+    	text-align:center;
+    	vertical-align:middle;
+	}

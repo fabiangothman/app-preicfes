@@ -1,0 +1,90 @@
+html body{
+	margin:0px;
+	padding:0px;
+	margin:0px;
+	padding:0px;
+	/*background-image:url("../images/comunes/patron.png");
+	background-position:left center;
+    background-repeat:repeat;
+    background-size:200px 200px;
+    height:100%;
+    width:100%;*/
+    background-color:#0F1F27;
+}
+
+.alertsContainer{
+	/*border:1px solid red;*/
+	height:auto;
+}
+
+/*//	BOOTSTRAP STYLE	//*/
+.alert{
+	margin-bottom:0px !important;
+}
+
+#perfilContainer .areaCont, #perfilContainer .areaFooter, .alertsContainer{
+	margin:0px auto;
+	width:1024px;
+}
+
+#perfilContainer{
+	/*border:1px solid red;*/
+	font-family:'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	height:100%;
+	width:100%;
+}
+
+#perfilContainer .areaCont{
+	/*border:1px solid blue;*/
+    height:693px;
+}
+
+#perfilContainer .areaCont .bgImage{
+	/*border:1px solid black;*/
+	background-image:url("../images/modules/perfil/perfil.png");
+	background-position:left center;
+    background-repeat:no-repeat;
+    background-size:1024px 693px;
+    height:100%;
+    width:100%;
+}
+
+	#perfilContainer .areaCont .bgImage td .rellenoAvatar{
+		width:107px;
+		height:115px;
+		/*border:1px solid red;*/
+	}
+
+	#perfilContainer .areaCont .bgImage .contBtnCabina{
+		/*border:1px solid red;*/
+		float:right;
+		margin-top:-315px;
+	}
+
+		#perfilContainer .areaCont .bgImage .contBtnCabina .btnCabina{
+			/*border:1px solid red;*/
+		}
+
+td{
+	/*border:1px solid red;*/
+}
+
+
+/*	FOOTER	*/
+#perfilContainer .areaFooter{
+	/*border:1px solid blue;*/
+	background-color:#308d72;
+	display:table;
+	font-size:16px;
+    height:30px;
+}
+
+	#perfilContainer .areaFooter .conText{
+		/*border:1px solid red;*/
+		color:white;
+		display:table-cell;
+    	text-align:center;
+    	vertical-align:middle;
+	}

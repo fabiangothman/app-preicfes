@@ -1,0 +1,67 @@
+html body{
+	margin:0px;
+	padding:0px;
+}
+
+#loginContainer{
+	/*border:1px solid red;
+	background-color:black;*/
+	height:100%;
+	width:100%;
+}
+
+#loginContainer .areaCont{
+    height:165px;	/*Real 205px*/
+    margin:20px 20px;
+	width:260px;	/*Real 300px*/
+}
+
+#loginContainer .areaCont #formLogin{
+	/*border:1px solid black;*/
+}
+
+	#loginContainer .areaCont #formLogin .campoTexto, #loginContainer .areaCont #formLogin .campoBoton{
+		/*border:1px solid black;*/
+		height:45px;
+		width:100%;
+	}
+
+		#loginContainer .areaCont #formLogin .campoTexto{
+			margin-bottom:15px;
+		}
+
+			#loginContainer .areaCont #formLogin .campoTexto input{
+				border:1px solid grey;
+				border-radius:5px;
+				height:100%;
+				padding:0px 4% 0px 12%;
+				width:84%;
+			}
+
+				#loginContainer .areaCont #formLogin .campoTexto input[type="text"]{
+					background-image:url("../images/modules/home/user.png");
+					background-position:8px center;
+				    background-repeat:no-repeat;
+				    background-size:14px 14px;
+				}
+
+				#loginContainer .areaCont #formLogin .campoTexto input[type="password"]{
+					background-image:url("../images/modules/home/lock.png");
+					background-position:8px center;
+				    background-repeat:no-repeat;
+				    background-size:14px 14px;
+				}
+
+		#loginContainer .areaCont #formLogin .campoBoton{
+			margin-top:15px;
+		}
+
+			#loginContainer .areaCont #formLogin .campoBoton input{
+				background-color:#308d72;
+				border:1px solid #308d72;
+				border-radius:5px;
+				color:white;
+				cursor:pointer;
+				height:100%;
+				width:100%;
+			}		
